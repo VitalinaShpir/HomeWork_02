@@ -50,6 +50,9 @@ body {
 .accent-logo {
   color: var(--primary-brand-color);
 }
+.logo-light {
+  color: var(--light-bg-color);
+}
 
 .navigation {
   font-weight: 500;
@@ -66,10 +69,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-.links{
+.links {
   text-decoration: none;
 }
-
+.list {
+  text-decoration: none;
+}
 .main-section {
   background-color: var(--dark-bg-color);
 }
@@ -124,4 +129,14 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+}
+.footer{
+    background-color: var(--dark-bg-color);
+}
+.footer-txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
 }
