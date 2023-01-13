@@ -1,11 +1,4 @@
-/* Main text color #434455 */
-/* Main white color #FFFFFF */
-/* Main title background color #2E2F42 */
-/* Accent color #4D5AE5 */
-/* Primary background color #E5E5E5 */
-/* Secondary background color #F4F4FD */
-/* Footer text color #E7E9FC */
-/* Button background color #404BBF */
+
 
 :root {
   --primary-brand-color: #4d5ae5;
@@ -33,6 +26,9 @@ body {
 .header {
   font-family: Roboto, sans-serif;
   font-style: normal;
+}
+.navigation-list .links.current{
+    color: var(--pressed-state-color);
 }
 
 .logo {
