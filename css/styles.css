@@ -36,7 +36,7 @@ body {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -45,6 +45,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .accent-logo {
   color: var(--primary-brand-color);
@@ -65,21 +66,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
+.links{
+  text-decoration: none;
+}
+
 .main-section {
-  position: absolute;
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
   background-color: var(--dark-bg-color);
 }
 
 .main-title {
-  position: absolute;
-  width: 494px;
-  height: 120px;
-  left: 473px;
-  top: 260px;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
@@ -88,18 +83,45 @@ body {
   color: var(--white-color);
 }
 .main-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
-  position: absolute;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
   background-color: var(--primary-brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--white-color);
+}
+.benefits-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark-bg-color);
+}
+.benefits-txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-bg-color);
+}
+.object-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: -var(--dark-bg-color);
+}
+.object-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
