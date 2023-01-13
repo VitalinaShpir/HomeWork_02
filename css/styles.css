@@ -1,0 +1,38 @@
+/* Main text color #434455 */
+/* Main white color #FFFFFF */
+/* Main title background color #2E2F42 */
+/* Accent color #4D5AE5 */
+/* Primary background color #E5E5E5 */
+/* Secondary background color #F4F4FD */
+/* Footer text color #E7E9FC */
+/* Button background color #404BBF */
+
+:root {
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-bg-color: #2e2f42;
+  --dark-bg-70-color: rgba(46, 47, 66, 0.7);
+  --dark-bg-40-color: rgba(46, 47, 66, 0.4);
+  --succes-100-color: #31d0aa;
+  --succes-75-color: rgba(49, 208, 170, 0.75);
+  --succes-50-color: rgba(49, 208, 170, 0.5);
+  --succes-10-color: rgba(49, 208, 170, 0.1);
+  --main-text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-bg-color: #f4f4fd;
+  --primary-bg-color: #e5e5e5;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--main-text-color);
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+}
