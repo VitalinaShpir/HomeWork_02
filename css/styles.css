@@ -1,5 +1,3 @@
-
-
 :root {
   --primary-brand-color: #4d5ae5;
   --pressed-state-color: #404bbf;
@@ -27,16 +25,13 @@ body {
   font-family: Roboto, sans-serif;
   font-style: normal;
 }
-.navigation-list .links.current{
-    color: var(--pressed-state-color);
-}
 
 .logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.3;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -53,23 +48,41 @@ body {
 .navigation {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-bg-color);
 }
-
+.navigation-list .links.current {
+  color: var(--pressed-state-color);
+}
 .contacts {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.3;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
+.contacts-link {
+  color: var(--main-text-color);
+}
+.contacts-link:hover {
+  color: var(--pressed-state-color);
+}
+.contacts-link:focus {
+  color: var(--pressed-state-color);
+}
+.contacts:hover {
+  color: var(--pressed-state-color);
+}
+.contacts:focus {
+  color: var(--pressed-state-color);
+}
+
 .links {
   text-decoration: none;
 }
 .list {
-  text-decoration: none;
+  list-style: none;
 }
 .main-section {
   background-color: var(--dark-bg-color);
@@ -78,7 +91,7 @@ body {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-color);
@@ -89,24 +102,39 @@ body {
   border-radius: 4px;
   color: var(--white-color);
 }
+.second-btn {
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  color: var(--pressed-state-color);
+}
+.btn:hover {
+  background-color: var(--pressed-state-color);
+}
+.btn:focus {
+  background-color: var(--pressed-state-color);
+}
+.btn{
+  cursor: pointer;
+}
 .benefits-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-bg-color);
 }
 .benefits-txt {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.3;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -115,24 +143,27 @@ body {
 .object-item {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: -var(--dark-bg-color);
 }
 .object-descr {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.3;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-.footer{
-    background-color: var(--dark-bg-color);
+.team{
+  background-color: var(--light-bg-color);
+}
+.footer {
+  background-color: var(--dark-bg-color);
 }
 .footer-txt {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.3;
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
