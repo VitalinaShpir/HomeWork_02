@@ -54,6 +54,7 @@ body {
 }
 .navigation-list .links.current {
   color: var(--pressed-state-color);
+  text-decoration: underline;
 }
 .contacts {
   font-weight: 400;
