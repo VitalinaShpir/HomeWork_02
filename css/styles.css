@@ -19,7 +19,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--main-text-color);
-  background-color: var(--primary-bg-color);
+  background-color: var(--white-color);
   font-size: 16px;
   letter-spacing: 0.02em;
 }
@@ -86,6 +86,7 @@ body {
 
 .links {
   text-decoration: none;
+  color: var(--dark-bg-color);
 }
 .list {
   list-style: none;
@@ -102,11 +103,6 @@ body {
   color: var(--white-color);
 }
 .main-btn {
-  font-weight: 500;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--primary-brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -127,6 +123,13 @@ body {
   color: var(--white-color);
 }
 .btn {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 .benefits-title {
